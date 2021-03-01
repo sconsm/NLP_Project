@@ -12,6 +12,7 @@ At least **250 million** of the world’s 650 million primary school age childre
 ### Data Used:
 
 Data gathered from the Gutenberg Project, a free online ebook website. 
+
 https://www.gutenberg.org/ebooks/bookshelf/22?sort_order=downloads&start_index=26
 
 There are 3 bookshelves related to children's books: **children's picture books, children's instructional books, and children's myths, fairy tales, etc.** I chose to create a dataset based on the top (most popular) books from each of the bookshelves. There are a total of 120 books in the dataset.
@@ -32,14 +33,46 @@ There are 3 bookshelves related to children's books: **children's picture books,
 ------
 
 ### Files Included:
-Final Code: NLP_Final_Code
+Final Code: 
+  - NLP_Final_Code.ipynb
+
 Visualizations: 
+  - Bar Graph of All Authors With Multiple Books.png
+      - Visualization for Total Authors
+  - Distribution of Topic Words for Topic 'Mystical Creatures'.png
+      - Example of a chosen topic and the distribution of the corresponding topic words throughout all books
+  - Distribution of Words Per Book.png
+      - Graph of Words Distribution of all books
+  - LDA Topic Model.png
+      - Second type of topic modeling performed. Was the worst results.
+  - NMF Model #1 (TfidfVectorizer).png
+      - The best model from topic modeling. Gave the best topic results.
+  - NMF Model #2 (CountVectorizer).png
+      - Another form of NMF topic modeling, good results, similar to first model.
+  - Wordcloud of Beatrix Potter's Book Titles.png
+      - Displays only the titles of all of Potter's books. Gives a general idea of what her stories are about based on their titles
+  - Wordcloud of T.W. Burgess's Book Titles.png
+      - Displays only the titles of all of Burgess's books. Gives a general idea of what his stories are about based on their titles
 
 ------
 
 ### Possible Impacts and Practical Applications:
-From our topic modeling of our data, we can see how these stories, and the texts specifically, carry a lot of weight in children's growth and development, and therefore can be carried on throughout young adult life. This enables children's abilities to think critically, and develop emotions like empathy. This simply emphasizes the need to really understand NLP in childrens stories!
+From the topic modeling of our data, we found the NMF model using TfidfVectorization provided the best overall topics for our data. These topics give us a generally good understanding of what chidlren's stories are about (based on this dataset). We can see how these stories, and the texts specifically, carry a lot of weight in children's understanding and development, and therefore are crucial for growth. These skills are carried on throughout young adult life, enabling children's abilities to think critically, and develop emotions like empathy. This project simply, emphasizes the need to really understand NLP in childrens stories!
 
+#### Topics In Children's Books: Gutenberg Children's Books
+
+Final Topics from NMF Modeling:
+
+  - Nature and Outdoors
+    - frog, pool, smiling, farmer
+  - Animals
+    - rabbit, garden, cat, mouse
+  - Mythical Creatures
+    - gods, giants, dragons, swords
+  - Fairy Tales
+    - knight, sword, lady, lord
+  - Family and Relationships
+    - papa, mama, aunt dear
 
 ------
 
