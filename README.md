@@ -1,5 +1,5 @@
 # Analyzing Children's Stories (NLP)
-## *Why is It So Important to Read to Our Kids?*
+## *Why Is It So Important to Read to Our Kids?*
 Metis NLP Project:
 Using NLP to Analyze Children's Stories
 
