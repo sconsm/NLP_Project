@@ -9,14 +9,10 @@ At least **250 million** of the world’s 650 million primary school age childre
 
 ------
 
-### Features and Target Variables:
-
-
-------
-
 ### Data Used:
 
-Data gathered from the Gutenberg Project, a free online ebook website.
+Data gathered from the Gutenberg Project, a free online ebook website. 
+https://www.gutenberg.org/ebooks/bookshelf/22?sort_order=downloads&start_index=26
 
 There are 3 bookshelves related to children's books: **children's picture books, children's instructional books, and children's myths, fairy tales, etc.** I chose to create a dataset based on the top (most popular) books from each of the bookshelves. There are a total of 120 books in the dataset.
 
@@ -31,11 +27,18 @@ There are 3 bookshelves related to children's books: **children's picture books,
 - sklearn
 - matplotlib
 - glob
+- wordcloud
+
+------
+
+### Files Included:
+Final Code: NLP_Final_Code
+Visualizations: 
 
 ------
 
 ### Possible Impacts and Practical Applications:
-From our topic modeling of our data, we can see how these stories, and the texts specifically, carry a lot of weight in children's growth and development, and therefore can be carried on throughout young adult life. This enables their abilities to think critically, and develop emotions like empathy. This simply emphasizes the need to really understand NLP in childrens stories!
+From our topic modeling of our data, we can see how these stories, and the texts specifically, carry a lot of weight in children's growth and development, and therefore can be carried on throughout young adult life. This enables children's abilities to think critically, and develop emotions like empathy. This simply emphasizes the need to really understand NLP in childrens stories!
 
 
 ------
